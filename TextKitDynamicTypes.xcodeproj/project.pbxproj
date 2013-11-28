@@ -23,6 +23,8 @@
 		812144F51847744E004C5174 /* Content.plist in Resources */ = {isa = PBXBuildFile; fileRef = 812144F41847744E004C5174 /* Content.plist */; };
 		812144F91847794F004C5174 /* CHDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812144F71847794F004C5174 /* CHDetailsViewController.m */; };
 		812144FA1847794F004C5174 /* CHDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 812144F81847794F004C5174 /* CHDetailsViewController.xib */; };
+		812144FE18478280004C5174 /* CHDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812144FC18478280004C5174 /* CHDemoViewController.m */; };
+		812144FF18478280004C5174 /* CHDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 812144FD18478280004C5174 /* CHDemoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		812144F61847794F004C5174 /* CHDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDetailsViewController.h; sourceTree = "<group>"; };
 		812144F71847794F004C5174 /* CHDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHDetailsViewController.m; sourceTree = "<group>"; };
 		812144F81847794F004C5174 /* CHDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHDetailsViewController.xib; sourceTree = "<group>"; };
+		812144FB18478280004C5174 /* CHDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDemoViewController.h; sourceTree = "<group>"; };
+		812144FC18478280004C5174 /* CHDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHDemoViewController.m; sourceTree = "<group>"; };
+		812144FD18478280004C5174 /* CHDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHDemoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +127,9 @@
 				812144F61847794F004C5174 /* CHDetailsViewController.h */,
 				812144F71847794F004C5174 /* CHDetailsViewController.m */,
 				812144F81847794F004C5174 /* CHDetailsViewController.xib */,
+				812144FB18478280004C5174 /* CHDemoViewController.h */,
+				812144FC18478280004C5174 /* CHDemoViewController.m */,
+				812144FD18478280004C5174 /* CHDemoViewController.xib */,
 				812144D118477186004C5174 /* CHAppDelegate.h */,
 				812144D218477186004C5174 /* CHAppDelegate.m */,
 				812144D418477186004C5174 /* Images.xcassets */,
@@ -239,6 +247,7 @@
 				812144FA1847794F004C5174 /* CHDetailsViewController.xib in Resources */,
 				812144CD18477186004C5174 /* InfoPlist.strings in Resources */,
 				812144D518477186004C5174 /* Images.xcassets in Resources */,
+				812144FF18478280004C5174 /* CHDemoViewController.xib in Resources */,
 				812144F51847744E004C5174 /* Content.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				812144F91847794F004C5174 /* CHDetailsViewController.m in Sources */,
+				812144FE18478280004C5174 /* CHDemoViewController.m in Sources */,
 				812144CF18477186004C5174 /* main.m in Sources */,
 				812144D318477186004C5174 /* CHAppDelegate.m in Sources */,
 				812144F31847738B004C5174 /* CHListViewController.m in Sources */,

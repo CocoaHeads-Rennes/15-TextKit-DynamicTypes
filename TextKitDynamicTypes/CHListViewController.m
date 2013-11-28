@@ -8,6 +8,7 @@
 
 #import "CHListViewController.h"
 #import "CHDetailsViewController.h"
+#import "CHDemoViewController.h"
 
 @interface CHListViewController ()
 
@@ -38,12 +39,24 @@
                                              selector:@selector(reloadData)
                                                  name:UIContentSizeCategoryDidChangeNotification
                                                object:nil];
+    
+    UIBarButtonItem *demo = [[UIBarButtonItem alloc] initWithTitle:@"Demo"
+                                                             style:UIBarButtonItemStyleBordered
+                                                            target:self
+                                                            action:@selector(showDemo:)];
+    self.navigationItem.rightBarButtonItem = demo;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)showDemo:(id)sender
+{
+    CHDemoViewController *demo = [[CHDemoViewController alloc] init];
+    [self.navigationController pushViewController:demo animated:YES];
 }
 
 #pragma mark - Table view data source
