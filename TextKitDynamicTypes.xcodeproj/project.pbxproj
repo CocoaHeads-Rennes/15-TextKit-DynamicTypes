@@ -19,6 +19,10 @@
 		812144DE18477186004C5174 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812144C618477186004C5174 /* UIKit.framework */; };
 		812144E618477186004C5174 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 812144E418477186004C5174 /* InfoPlist.strings */; };
 		812144E818477186004C5174 /* TextKitDynamicTypesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 812144E718477186004C5174 /* TextKitDynamicTypesTests.m */; };
+		812144F31847738B004C5174 /* CHListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812144F21847738B004C5174 /* CHListViewController.m */; };
+		812144F51847744E004C5174 /* Content.plist in Resources */ = {isa = PBXBuildFile; fileRef = 812144F41847744E004C5174 /* Content.plist */; };
+		812144F91847794F004C5174 /* CHDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812144F71847794F004C5174 /* CHDetailsViewController.m */; };
+		812144FA1847794F004C5174 /* CHDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 812144F81847794F004C5174 /* CHDetailsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		812144E318477186004C5174 /* TextKitDynamicTypesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextKitDynamicTypesTests-Info.plist"; sourceTree = "<group>"; };
 		812144E518477186004C5174 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		812144E718477186004C5174 /* TextKitDynamicTypesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextKitDynamicTypesTests.m; sourceTree = "<group>"; };
+		812144F11847738B004C5174 /* CHListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHListViewController.h; sourceTree = "<group>"; };
+		812144F21847738B004C5174 /* CHListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHListViewController.m; sourceTree = "<group>"; };
+		812144F41847744E004C5174 /* Content.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Content.plist; sourceTree = "<group>"; };
+		812144F61847794F004C5174 /* CHDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDetailsViewController.h; sourceTree = "<group>"; };
+		812144F71847794F004C5174 /* CHDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHDetailsViewController.m; sourceTree = "<group>"; };
+		812144F81847794F004C5174 /* CHDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHDetailsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +117,16 @@
 		812144C818477186004C5174 /* TextKitDynamicTypes */ = {
 			isa = PBXGroup;
 			children = (
+				812144F11847738B004C5174 /* CHListViewController.h */,
+				812144F21847738B004C5174 /* CHListViewController.m */,
+				812144F61847794F004C5174 /* CHDetailsViewController.h */,
+				812144F71847794F004C5174 /* CHDetailsViewController.m */,
+				812144F81847794F004C5174 /* CHDetailsViewController.xib */,
 				812144D118477186004C5174 /* CHAppDelegate.h */,
 				812144D218477186004C5174 /* CHAppDelegate.m */,
 				812144D418477186004C5174 /* Images.xcassets */,
 				812144C918477186004C5174 /* Supporting Files */,
+				812144F41847744E004C5174 /* Content.plist */,
 			);
 			path = TextKitDynamicTypes;
 			sourceTree = "<group>";
@@ -220,8 +236,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				812144FA1847794F004C5174 /* CHDetailsViewController.xib in Resources */,
 				812144CD18477186004C5174 /* InfoPlist.strings in Resources */,
 				812144D518477186004C5174 /* Images.xcassets in Resources */,
+				812144F51847744E004C5174 /* Content.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				812144F91847794F004C5174 /* CHDetailsViewController.m in Sources */,
 				812144CF18477186004C5174 /* main.m in Sources */,
 				812144D318477186004C5174 /* CHAppDelegate.m in Sources */,
+				812144F31847738B004C5174 /* CHListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

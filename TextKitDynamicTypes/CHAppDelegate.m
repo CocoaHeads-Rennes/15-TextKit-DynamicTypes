@@ -7,6 +7,7 @@
 //
 
 #import "CHAppDelegate.h"
+#import "CHListViewController.h"
 
 @implementation CHAppDelegate
 
@@ -15,6 +16,13 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    CHListViewController *list = [CHListViewController new];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:list];
+    
+    self.window.rootViewController = nav;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

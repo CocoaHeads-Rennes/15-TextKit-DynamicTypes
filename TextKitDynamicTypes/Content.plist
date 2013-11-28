@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>#15: Sprite Kit et SmallTalks le 28 novembre</string>
+		<key>content</key>
+		<string>Oyez, oyez, le temps est venu pour de nous de vous annoncer la tenue de la quinzième session des CocoaHeads Rennais. Ce sera le 28 novembre à 18h30. Attention cette session aura exceptionnellement lieu à l’Annexe (et non à La Cantine). Ne vous inquiétez pas, c’est juste à côté: au 20 rue d’Isly (l’entrée est entre la Caisse d’Épargne et le Centre Commercial 3 Soleils).
+
+Pour cette session, nous avons décidé de vous présenter un seul grand sujet et plusieurs SmallTalks:
+
+SpriteKit
+spritekitParmi le flot de nouveautés d’iOS et d’OS X cette année, une a particulièrement réjoui les développeurs de jeux: la mise à disposition d’un moteur 2D, made in Apple, gérant notamment les sprites, les particules, la physique 2D … Bref de quoi s’amuser.
+
+Thomas Dupont (coorganisateur des CocoaHeads Rennais) vous présentera, à grand renfort d’exemples, ce puissant, mais simple d’utilisation, outil qu’est SpriteKit.
+
+Vous aussi prenez la parole !
+Vous voulez nous parler de quelque chose ? Que ce soit une astuce, un outil, une librairie ou juste un bout de code: vous êtes les bienvenus pour faire un SmallTalk ! Choisissez votre sujet (quelques minutes), faites quelques slides (ou pas !) et envoyez-nous un petit mail …
+
+Cette session finira certainement, une fois de plus, autour d’une table. Nous espérons vous y (re)voir nombreux !</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>#14: Programmation Responsive et iOS7 Controllers Transitions</string>
+		<key>content</key>
+		<string>Cette 14e édition des CocoaHeads rennais fut très intéressante ! Nous avons commencé par une présentation (en exclusivité mondiale) de Celedev par son créateur: Jean-Luc Jumpertz. Il s’agit d’un environnement de développement qui introduit la notion de Programmation Responsive pour iOS. L’idée, c’est que les changements que l’on fait dans le code s’appliquent en temps réel dans l’application. Ceci, afin de gagner pas mal de temps (pour pouvoir en consacrer plus à expérimenter et améliorer nos apps). La vidéo de la présentation (et des démonstrations impressionnantes) est ci-dessous (suivie par les slides).</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>#13: La rentrée avec MagicalRecord et CocoaPods le 19 septembre</string>
+		<key>content</key>
+		<string>Nous connaissons maintenant la date de la rentrée pour les CocoaHeads à Rennes: ce sera le Jeudi 19 septembre à 18h30. Comme d’habitude, ce sera à la Cantine Numérique Rennaise (Les Champs Libres 46 boulevard Magenta 35000 Rennes).
+
+Pour cette rentrée, nous vous avons concocté un nouveau format de sessions. Il s’articulera autour de deux sujets : l’un traité par une présentation complète. L’autre, par un format plus court. Ces deux sujets seront suivis par un moment de libre échange ouvert à tous. Pour cette première session de l’année 2013/2014, ce moment d’échange sera consacré à vous ! L’objectif est de mieux se connaitre et, surtout, de mieux connaitre ce que vous attendez des CocoaHeads.
+
+Les deux présentation de cette édition parlent de deux outils en vogue en ce moment: MagicalRecord et CocoaPods.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>#12 : Workspaces et interactions avec le monde réel – 17 janvier</string>
+		<key>content</key>
+		<string>Le jeudi 17 janvier à 18h30 aura lieu la douzième session des CocoaHeads à Rennes. Comme d’habitude, ce sera à la Cantine Numérique Rennaise (Les Champs Libres 46 boulevard Magenta 35000 Rennes). Pour commencer 2012, deux thèmes: les workspaces et les interactions avec le monde réel.
+
+Workspaces, Librairies et Ressources Partagées
+Le concept de workspace facilite grandement l’intégration des librairies tierces dans vos projets Xcode. Même si il apporte beaucoup d’avantages, ce concept est rarement mis à profit dans nos projets.
+
+Olivier Halligon (développeur de FoodReporter) nous dira ce qu’on gagne à organiser nos projets en workspaces. Il nous dira aussi comment les utiliser pour intégrer plus proprement des librairies tierces (y compris avec des ressources type PNG/XIB/xcdatamodel…). Le tout, sans galérer !
+
+ 
+
+Interactions avec le monde réel
+Marc Audefroy, étudiant à SUPINFO, a une certitude: on a tous rêvé un jour ou l’autre de posséder un droïde. Savez-vous que votre iPhone possède de nombreuses fonctionnalités permettant la création d’un droïde?
+
+Il nous fera (re)découvrir, dans une session orientée débutant, les APIs d’iOS permettant d’interagir avec le monde réel. Il présentera notamment la caméra, le micro, la géolocalisation ou encore le gyroscope. Grâce à ces API, nous avons déjà la possibilité de créer une partie de notre droïde : quelques interactions avec le réel.
+
+Cette session sera, une fois de plus, suivie d’un moment d’échange, qui finira certainement autour d’une table. Nous espérons vous y (re)voir nombreux !</string>
+	</dict>
+</array>
+</plist>
