@@ -47,12 +47,25 @@
     
     self.titleLabel.text = self.articleTitle;
     self.contentTextField.text = self.content;
+    
+    [self configureSizes];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(configureSizes)
+                                                 name:UIContentSizeCategoryDidChangeNotification
+                                               object:nil];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)configureSizes
+{
+    self.titleLabel.font       = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
+    self.contentTextField.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
 }
 
 @end

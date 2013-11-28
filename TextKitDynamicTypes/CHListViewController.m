@@ -33,6 +33,11 @@
     
     NSString *contentPath = [[NSBundle bundleForClass:[self class]] pathForResource:@"Content" ofType:@"plist"];
     self.content = [NSArray arrayWithContentsOfFile:contentPath];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self.tableView
+                                             selector:@selector(reloadData)
+                                                 name:UIContentSizeCategoryDidChangeNotification
+                                               object:nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -60,6 +65,9 @@
         cell.detailTextLabel.numberOfLines = 3;
         cell.detailTextLabel.textColor = [UIColor grayColor];
     }
+    
+    cell.textLabel.font         = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
+    cell.detailTextLabel.font   = [UIFont preferredFontForTextStyle:UIFontTextStyleCaption1];
     
     cell.textLabel.text         = self.content[indexPath.row][@"title"];
     cell.detailTextLabel.text   = self.content[indexPath.row][@"content"];
