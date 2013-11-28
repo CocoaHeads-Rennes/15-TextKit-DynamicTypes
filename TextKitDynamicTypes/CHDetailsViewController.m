@@ -64,8 +64,16 @@
 
 - (void)configureSizes
 {
-    self.titleLabel.font       = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
-    self.contentTextField.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    UIFontDescriptor *headlineDescriptor        = [UIFontDescriptor preferredFontDescriptorWithTextStyle:UIFontTextStyleHeadline];
+    CGFloat           headlineSize              = [headlineDescriptor.fontAttributes[UIFontDescriptorSizeAttribute] floatValue];
+    
+    self.titleLabel.font       = [UIFont fontWithName:@"Zapfino" size:headlineSize];
+    
+    UIFontDescriptor *bodyDescriptor            = [UIFontDescriptor preferredFontDescriptorWithTextStyle:UIFontTextStyleBody];
+    UIFontDescriptor *italicBodyDescriptor      = [bodyDescriptor fontDescriptorWithSymbolicTraits:UIFontDescriptorTraitItalic];
+    CGFloat           bodySize                  = [bodyDescriptor.fontAttributes[UIFontDescriptorSizeAttribute] floatValue];
+    
+    self.contentTextField.font = [UIFont fontWithDescriptor:italicBodyDescriptor size:bodySize];
 }
 
 @end
